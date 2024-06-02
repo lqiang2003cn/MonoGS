@@ -1,7 +1,7 @@
 inherit_from: "configs/mono/replica/base_config.yaml"
 Dataset:
   dataset_path: "datasets/replica/office0/"
-  single_thread: True
+  single_thread: False
 
 model_params:
   data_device: "cpu"
